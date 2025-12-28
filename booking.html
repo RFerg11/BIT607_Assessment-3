@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+
+    <!--Snazzy Paws Head-->     
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Snazzy Paws Grooming</title>
+        <meta name="description" content="A local dog grooming service">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+
+    <body>
+
+        <!--This is the header and navigation used across the website-->
+        <header class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <!--Logo-->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/Snazzy Paws Logo.png" 
+                    alt="Snazzy Paws Logo"
+                    class="img-fluid"
+                    style="max-height: 100px;">
+                </a>
+
+                <!--Mobile toggle-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Navigation links-->
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <nav class="navbar-nav ms-auto mb-2 mb-lg-0" aria-label="Main Menu">
+                        <a class="nav-link me-3" href="index.html">Home</a>
+                        <a class="nav-link me-3" href="services.html">Services</a>
+                        <a class="nav-link me-3" href="coming-soon.html">Resources</a>
+                        <a class="nav-link me-3" href="coming-soon.html">About Us</a>
+                        <a class="nav-link me-3" href="gallery.html">Photos</a>
+                        <a class="nav-link me-3" href="contact.html">Contact Us</a>
+                    </nav>
+
+                    <!-- Buttons -->
+                    <div class="d-flex gap-3 ms-lg-4 p-3">
+                        <a href="booking.html" target="_blank" class="btn btn-custom btn-lg">Book Now</a>
+                        <a href="staff/roster.html" class="btn btn-custom btn-lg">Log In</a>
+                    </div>
+                </div>
+            
+            </div>
+        </header>
+
+        <hr class="my-0 border-5 border-primary">
+
+       <!--Booking Form-->
+        <main class="container my-5">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8">
+
+                    <div class="card shadow-sm">
+                        <div class="card-body p-5">
+
+                            <div class="text-center mb-5 intro-text">
+                                <h1>Snazzy Paws Booking Form</h1>
+                                <p>Please fill out all sections of the form below before submitting.</p>
+                                <hr class="mt-5 my-0 border-5 border-primary">
+                            </div>
+
+                            <form>
+
+                                <section class="mb-5">
+                                    <h2 class="mb-4">Select the service you want to book</h2>
+
+                                    <div class="row g-4">
+
+                                        <!-- Standard Grooming -->
+                                        <div class="col-md-6">
+                                            <h3 class="mb-3">Standard Grooming</h3>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="standard[]" value="Express service">
+                                                <label class="form-check-label">Express service</label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="standard[]" value="Bath and Brush">
+                                                <label class="form-check-label">Bath and Brush</label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="standard[]" value="Haircut">
+                                                <label class="form-check-label">Haircut</label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="standard[]" value="Special breed cut">
+                                                <label class="form-check-label">Special breed cut</label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="standard[]" value="Nail trim">
+                                                <label class="form-check-label">Nail trim</label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="standard[]" value="Ear cleaning">
+                                                <label class="form-check-label">Ear cleaning</label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="standard[]" value="Teeth brushing">
+                                                <label class="form-check-label">Teeth brushing</label>
+                                            </div>
+                                        </div>
+
+                                        <!-- Packages -->
+                                        <div class="col-md-6">
+                                            <h3 class="mb-3">Grooming Packages</h3>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="package[]" value="Spa package">
+                                                <label class="form-check-label">Spa package</label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="package[]" value="Puppy package">
+                                                <label class="form-check-label">Puppy package</label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="package[]" value="Senior dog package">
+                                                <label class="form-check-label">Senior dog package</label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="package[]" value="Full grooming package">
+                                                <label class="form-check-label">Full grooming package</label>
+                                            </div>
+                                        </div>
+                                        
+                                        <hr class="mt-5 my-0 border-5 border-primary">
+                                    </div>
+                                </section>
+
+                                <!-- Add-ons -->
+                                <section class="mb-5">
+                                    <h2 class="mb-3">Select Optional Add-ons</h2>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="addon[]" value="De-shedding treatment">
+                                        <label class="form-check-label">De-shedding treatment</label>
+                                    </div>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="addon[]" value="Flea and tick treatment">
+                                        <label class="form-check-label">Flea and tick treatment</label>
+                                    </div>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="addon[]" value="Medicated bath">
+                                        <label class="form-check-label">Medicated bath</label>
+                                    </div>
+
+                                    <hr class="mt-5 my-0 border-5 border-primary">
+                                </section>
+
+                                <!-- Date & Time -->
+                                <section class="mb-5">
+                                    <h2 class="mb-3">Preferred Booking Date & Time</h2>
+                                    <input type="datetime-local" class="form-control w-auto" name="datetime">
+                                    <hr class="mt-5 my-0 border-5 border-primary">
+                                </section>
+
+                                <!-- Owner Info -->
+                                <section class="mb-5">
+                                    <h2 class="mb-3">Your Information</h2>
+
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" name="first-name" placeholder="First Name">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" name="last-name" placeholder="Last Name">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <input type="email" class="form-control" name="email" placeholder="Email">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <input type="tel" class="form-control" name="phone" placeholder="Phone number">
+                                        </div>
+                                    </div>
+
+                                    <hr class="mt-5 my-0 border-5 border-primary">
+                                </section>
+
+                                <!-- Dog Info -->
+                                <section class="mb-5">
+                                    <h2 class="mb-3">Your Dog’s Information</h2>
+
+                                    <div class="row g-3">
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" name="dog-name" placeholder="Name">
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" name="breed" placeholder="Breed">
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <input type="number" class="form-control" name="age" placeholder="Age">
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Submit -->
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-custom btn-lg">
+                                        Submit Booking
+                                    </button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    </body>
+
+</html>

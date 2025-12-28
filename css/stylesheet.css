@@ -1,0 +1,137 @@
+/*--------------------------------------BASE CSS--------------------------------------*/
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+h1, h2 {
+  font-family: cursive;
+  color: #004e7a;   
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: cursive;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+h4 {
+  color: #004e7a;
+  font-family: cursive;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/*Intro section text*/
+.intro-text h1 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.intro-text p {
+  font-size: 1.2rem;
+}
+
+/*--------------------------------------HEADER CSS--------------------------------------*/
+
+.navbar {
+  padding-bottom: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+.navbar-brand img {
+  display: block;
+}
+
+header.navbar {
+  background-color: lightcyan;
+}
+
+.navbar .nav-link {
+  font-family: cursive;
+  font-size: large;
+  color: #004e7a;
+}
+
+.btn-custom {
+  font-family: cursive;
+  font-size: large;
+  background-color: #004e7a;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #18628d;
+  color: #ffffff;
+}
+
+/*--------------------------------------FOOTER CSS--------------------------------------*/
+
+.footer-bg {
+  background-color: #7fbcda;
+}
+
+.footer-bg a {
+  font-family: cursive;
+  font-size: large;
+  color: #004e7a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/*--------------------------------------HOME PAGE CSS--------------------------------------*/
+
+/*Certificates*/
+.certificates {
+  background: #d22b2b;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.329);
+}
+
+/*Buttons*/
+.btn-light {
+  font-family: cursive;
+  font-size: large;
+  color: #004e7a;
+}
+
+/*--------------------------------------SERVICES PAGE CSS--------------------------------------*/
+
+/*Table Header*/
+.custom-header th {
+    background-color: #7fbcda;
+    border-color: lightgrey;
+    font-family: cursive;
+    font-size: large;
+}
+
+/*Terms and conditions*/
+.terms-conditions h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.terms-conditions h3 {
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.terms-conditions p {
+  font-size: 0.9rem;
+}
